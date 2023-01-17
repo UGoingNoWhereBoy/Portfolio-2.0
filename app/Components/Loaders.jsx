@@ -35,9 +35,9 @@ export const Cardloader = () => {
           </span>
         </div> 
         <div className="card lg:w-[900px] md:w-[700px] w-[100%] bg-base-300 shadow-xl mb-8 mt-8">
-            <div class="animate-pulse space-x-4">
-                <div class="bg-slate-700 rounded-md w-[100%] h-[500px]"></div>
-                <div class="flex-1 space-y-6 py-1">
+            <div className="animate-pulse space-x-4">
+                <div className="bg-slate-700 rounded-md w-[100%] h-[500px]"></div>
+                <div className="flex-1 space-y-6 py-1">
                 </div>
             </div>
         </div>
