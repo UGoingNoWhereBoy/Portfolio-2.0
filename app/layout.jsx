@@ -1,7 +1,8 @@
 import './globals.css'
-import  ThemeProvider  from './(useclient)/nexttheme'
+import  ThemeProvider  from './(useclient)/Nexttheme'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Analytics from './(useclient)/Analytics'
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='h-full'>
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
            <Navbar />
            {children}
            <Footer />
+           <Analytics />
           </ThemeProvider>
         </body>
      
