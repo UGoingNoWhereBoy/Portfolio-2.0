@@ -1,6 +1,6 @@
 import './globals.css'
 import  ThemeProvider  from './(useclient)/nexttheme'
-import Analytics from './(useclient)/analytics'
+import Analytics from '../lib/analytics'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
