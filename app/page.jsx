@@ -11,7 +11,7 @@ export default function Home() {
    <>
      <Hero />
      <div className='grid justify-center mt-24'>
-     <Card />
+       <Card />
      </div>
     
    </>
