@@ -8,7 +8,6 @@ import { Cardloader } from "./Loaders"
 const Card = async() => {
   
   const data = await getClient()
-  
 
   return (
     <>
@@ -17,10 +16,14 @@ const Card = async() => {
 
     {data?.map((i, k) => (
     <div key={k}>
-     <div className='flex flex-col items-center'>
-          <span className="button-coloring h-16 sm:w-96 w-48">
+     <div className='flex flex-col justify-center items-center lg:flex-row'>
+          <span className="button-coloring h-16 sm:w-96 w-48 lg:mr-auto lg:mb-0 mb-8">
             <span className="button-background"></span>
             <span className="button-text p-4 text-center bg-base-200 sm:text-2xl text-xl">{i?.title}</span>
+          </span>
+          <span className="button-coloring h-16 sm:w-96 w-48 lg:ml-auto lg:mt-0 mt-2">
+            <span className="button-background"></span>
+            <span className="button-text p-4 text-center bg-base-200 sm:text-2xl text-xl">{i?._updatedAt.slice(0, 10)}</span>
           </span>
       </div>   
     <div className="card lg:w-[900px] md:w-[700px] w-[100%] bg-base-300 shadow-xl mb-8 mt-8" id={i?._rev}>
