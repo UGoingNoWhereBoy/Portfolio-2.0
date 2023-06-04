@@ -21,10 +21,7 @@ const Card = async() => {
             <span className="button-background"></span>
             <span className="button-text p-4 text-center bg-base-200 sm:text-2xl text-xl">{i?.title}</span>
           </span>
-          <span className="button-coloring h-16 sm:w-96 w-48 lg:ml-auto lg:mt-0 mt-2">
-            <span className="button-background"></span>
-            <span className="button-text p-4 text-center bg-base-200 sm:text-2xl text-xl">{i?._updatedAt.slice(0, 10)}</span>
-          </span>
+    
       </div>   
     <div className="card lg:w-[900px] md:w-[700px] w-[100%] bg-base-300 shadow-xl mb-8 mt-8" id={i?._rev}>
     <div>
