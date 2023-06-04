@@ -16,7 +16,7 @@ const Card = async() => {
 
     {data?.map((i, k) => (
     <div key={k}>
-     <div className='flex flex-col justify-center items-center lg:flex-row'>
+     <div className='flex justify-center items-center '>
           <span className="button-coloring h-16 sm:w-96 w-48 lg:mr-auto lg:mb-0 mb-8">
             <span className="button-background"></span>
             <span className="button-text p-4 text-center bg-base-200 sm:text-2xl text-xl">{i?.title}</span>
